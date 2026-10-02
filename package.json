@@ -1,0 +1,36 @@
+{
+  "name": "playrunner",
+  "version": "1.0.0",
+  "description": "A local web app for discovering Playwright tests, building execution batches, recording tests, and reviewing reports.",
+  "main": "index.js",
+  "scripts": {
+    "app": "python3 -m PlaywrightExecutor.app",
+    "test": "playwright test --config=playwright.config.ts",
+    "test:list": "playwright test --config=playwright.config.ts --list --reporter=list",
+    "test:python": "python3 -m unittest PlaywrightExecutor.test_playrun -v"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "playwright": "^1.63.0",
+    "playwright-core": "^1.63.0",
+    "undici-types": "^8.9.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabareeshkaveri/PlayWrightRunner.git"
+  },
+  "keywords": [],
+  "author": "Sabareesh Kaveri",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sabareeshkaveri/PlayWrightRunner/issues"
+  },
+  "homepage": "https://github.com/sabareeshkaveri/PlayWrightRunner#readme"
+}
