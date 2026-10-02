@@ -60,8 +60,8 @@ archive. Change into the project root: the directory containing `package.json`,
 For example, after cloning:
 
 ```sh
-git clone YOUR_REPOSITORY_URL
-cd YOUR_PROJECT_DIRECTORY
+git clone https://github.com/sabareeshkaveri/PlayWrightRunner.git
+cd PlayWrightRunner
 ```
 
 Replace both uppercase placeholders with the repository URL and directory name
